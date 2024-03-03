@@ -1,0 +1,59 @@
+
+{
+  "start": "vérification de la liste des fichiers",
+  "alicestate": {
+    "unknown": "veuillez utiliser alicestate",
+    "connect": "connexion à l'état alic",
+    "connected": "état alic connecté",
+    "disconnect": "impossible de se connecter à l'état alic, veuillez obtenir un nouvel état alic et le coller à nouveau sur alicestate.json",
+    "missing": "votre état alic est vide",
+    "security": "exécution de la sécurité de l'état alic"
+  },
+  "admin": {
+    "missing": "l'administrateur du bot est actuellement manquant, veuillez ajouter votre URL Facebook sur alice.json"
+  },
+  "file": {
+    "invalid": "format de fichier invalide ⟨ {0} ⟩",
+    "exist": "ce nom de commande ⟨ {0} ⟩ existe déjà, veuillez changer le nom de votre commande pour résoudre ce problème"
+  },
+  "installed": {
+    "command": "{0} commandes installées",
+    "function": "{0} fonctions installées"
+  },
+  "command": "la commande que vous avez saisie n'existe pas dans mon système, vous voulez dire\n {0}",
+  "ban": {
+    "user": "votre compte a été banni du système alice",
+    "group": "votre chat de groupe a été banni du système alice",
+    "nsfw": "votre chat de groupe n'est pas autorisé à utiliser des commandes nsfw",
+    "groupAdmin": "désolé, mais seuls les administrateurs de groupe peuvent utiliser cette commande",
+    "admin": "désolé, mais seuls les administrateurs du bot peuvent utiliser cette commande",
+    "premium": "désolé, mais seuls les utilisateurs premium peuvent utiliser cette commande"
+  },
+  "schedule": {
+    "morning": "le soleil est un rappel quotidien que nous aussi pouvons nous lever à nouveau de l'obscurité, que nous aussi pouvons faire briller notre propre lumière\n\n🌤️ bonjour à tous",
+    "afternoon": "ne vous poussez pas trop fort, oubliez tout pendant un moment et reposez-vous un peu\n\n🌥️ bon après-midi à tous",
+    "evening": "le soleil couchant est une indication que peu importe à quel point votre journée a été difficile, elle est maintenant terminée, asseyez-vous, détendez-vous et soyez fier d'avoir survécu à un autre jour\n\n🌆 bonsoir à tous",
+    "sleep": "laissez la nuit vous emporter, laissez les étoiles s'évaporer dans vos rêves, laissez le sommeil être le seul réconfort pour que vous croyiez\n\n🌌 bonne nuit à tous",
+    "midnight": "ne réfléchissez pas trop, toutes les mauvaises choses ne sont que temporaires, reposez-vous et oubliez tout pendant un moment\n\n🌃 dors bien mon cher"
+  },
+  "cooldown": "la commande est en attente, vous pouvez utiliser cette commande après\n⟨ {0} secondes ⟩",
+  "missing": "les entrées ne peuvent pas être laissées vides\n\ncomment utiliser?\n{0} ⟨ entrée ⟩\n\nexemple:\n{0} alice",
+  "help": "liste des commandes:\n\n{0}\n\n⟨ page {1} ⟩",
+  "request": "traitement de votre demande\n⟨ {0} ⟩",
+  "error": "une erreur s'est produite lors de l'envoi de votre demande, veuillez réessayer ultérieurement ou corriger votre code immédiatement",
+  "size": "désolé, votre fichier de demande ne peut pas être envoyé car il dépasse 25 Mo, veuillez essayer de demander le plus court",
+  "search": "résultats de recherche pour\n⟨ {0} ⟩",
+  "reply": "veuillez répondre à un message valide pour traiter votre demande",
+  "url": "veuillez entrer une URL {0} valide",
+  "number": "veuillez sélectionner et répondre par un numéro pour traiter votre demande",
+  "mention": "veuillez mentionner un utilisateur\n\nComment utiliser?\n{0} ⟨ @tag ⟩\n\nExemple:\n{0} @alice",
+  "welcome": {
+    "description": "bonjour {0}, veuillez utiliser {1}aide pour voir les commandes disponibles que j'ai",
+    "message": "bienvenue dans le groupe {0}, vous êtes le {1}ème membre de {2}\n\nveuillez profiter de votre séjour ici et vous faire beaucoup d'amis"
+  },
+  "level": "♡ ∩_∩\n.. （„• ֊ •„)♡\n┏━∪∪━━┓\n ♡𝗟𝗘𝗩𝗘𝗟 𝗨𝗣♡\n┗━━━━━┛\n\n❖ {0}, votre alicisation est maintenant au niveau {1}",
+  "goodbye": {
+    "description": "est-ce la fin {0}?",
+    "message": "au revoir au groupe {0}, j'espère que vous avez apprécié votre séjour ici pendant un moment\n\nil ne reste maintenant que {1} membre de ce groupe {2}"
+  }
+}
